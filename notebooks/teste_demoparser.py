@@ -67,8 +67,8 @@ class DemoParserGC(DemoParser):
                 "JSON not found. Run .parse() or .read_json() if JSON already exists"
             )
 # %%
-demofile = os.path.join(DEMOS_DIR, "2022-03-26__0007__1__15477821__de_train__timemlopes__vs__timepurpz.dem")
-demo_parser = DemoParserGC(demofile=demofile, demo_id="timemlopes__vs__timepurpz", parse_rate=128)
+demofile = os.path.join(DEMOS_DIR, "furia-vs-leviatan-inferno.dem")
+demo_parser = DemoParserGC(demofile=demofile, demo_id="123133123", parse_rate=128)
 
 demo_parser.parse()
 # %%
